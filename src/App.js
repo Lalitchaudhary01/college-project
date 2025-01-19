@@ -1,5 +1,6 @@
 import React from "react";
 import Navbar from "./components/Navbar";
+import CryptoList from "./components/CryptoList";
 
 const App = () => {
   return (
@@ -7,9 +8,9 @@ const App = () => {
       <Navbar />
 
       <div className="max-w-4xl mx-auto bg-white p-8 rounded-lg shadow-md mt-6">
-        {/* <h1 className="text-3xl font-bold text-center mb-6">
-          Cryptocurrency Dashboard
-        </h1> */}
+        <h1 className="text-3xl font-bold text-center mb-6">
+          <CryptoList />
+        </h1>
       </div>
     </div>
   );
