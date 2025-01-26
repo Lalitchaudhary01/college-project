@@ -1,7 +1,14 @@
 module.exports = {
-  content: ["./src/**/*.{html,js,jsx,ts,tsx}"],
+  content: ["./src/**/*.{js,jsx,ts,tsx}"],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        nhg: ["NHaasGroteskDSPro-65Md", "sans-serif"],
+      },
+      backgroundImage: {
+        "crypto-pattern": "url('https://wallpaperaccess.com/full/2095724.png')",
+      },
+    },
   },
-  plugins: [],
+  plugins: [require("@tailwindcss/forms")],
 };
