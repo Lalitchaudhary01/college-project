@@ -1,3 +1,4 @@
+import React from "react";
 const Navbar = ({ coinId, setCoinId }) => {
   const coins = [
     { id: "avalanche-2", name: "Avalanche (AVAX)" },
